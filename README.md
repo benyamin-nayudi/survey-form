@@ -5,7 +5,4 @@ hi im benyamin and im learning new skills
 
 
 
-i have no idea what im doing
-
-;dfjg;sej
-thanks for 
+i have no idea
