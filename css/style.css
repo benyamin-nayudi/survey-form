@@ -1,0 +1,137 @@
+/*این خصوصیت های بادی هستش که یک بک گراند داره یه دایرکشن و فونت*/
+
+body{
+    background-color: #23c9c0;
+    direction: rtl;
+    font-family: B Nazanin,tahoma;
+}
+/*اینم خصوصت لینک گرینه فارسی وقتی موس روش میره ولی کلیک نمیکنه*/
+.language a:hover{
+    color: aqua;
+    font-size: 20px;
+}
+/*این خصوصیت عادی دکمه فارسیه*/
+.language{
+    font-size:20px;
+    color: blue;
+    display: inline;
+    padding-left: 80px;
+}
+/*
+
+اینم خصوصیت های هدر هستش همون بخش های بالا که نوشته ازمون شخصیت و این حرفا
+براشون دیسپلی این لاین گذاشتم این خصوصیت باعث میشه تگ های بلاک لول که کل عرض صفحه رو میگیرن به تگ های تکست لول تبدیل شن و بتونن کنار هم قرار بگیرن
+یه مارجین هم براشون گذاشتم که از هم فاصله داشته باشن
+*/
+
+.header{
+    font-size:25px;
+    display:inline;
+    margin: 40px;
+    margin: 10px 10px 10px 60px;
+}
+
+.hedear2{
+    background-color:#dfe6e9 ;
+}
+
+/*
+
+خصوصیت کلیر که باعث میشه از یه جا به بعد خصوصیت دیسپلی این لاین دیگه کار نکته تا بتونیم تگ های دیو بعدی رو پایین قرار بدیم و نیان کنار همدیگه همشون
+*/
+
+
+.clear{
+    clear:both;
+}
+
+/*اینم لوگو که بهش خصوصیت فلوت دادم تا سمت چپ صفحه قرار بگیره*/
+.logo{
+    float: left;
+    margin-left: 60px;
+}
+/*خصوصیت های لینک رو دادم که تکست دکوریشن خط پایین لینکو برمیداره و رنگشم سیاه کردم*/
+a{
+    text-decoration: none;
+    color: #cc0000;
+}
+/*خصوصیت لینک وقتی موس روشون میره که هم رنگشون عوض میشه هم فونتشون و هم یه بوردر میاد پایینشون*/
+a:hover{
+    color: #cccc00;
+    font-size: 30px;
+    border-bottom: solid;
+}
+/*کلاس سکشن یک برای جمله وسط متن که نوشته ازمون شخصیت که اینجا در حالت عادی متنه و خصوصیت بعدی که سکشن دو هستش مال وقتیه که موس روی حرف میره*/
+.section1{
+        background-color: #636e72;
+        color: azure;
+
+    text-align: center;
+}
+.section1:hover{
+    color:#00cec9;
+}
+
+/*خصوصیت فلاکس باکس که یکم سخته و من هنوز توش راه نیوفتادم و با این عکسا و متن هارو پایین هم دیگه چیدم هرچند تا الان زیاد جالب در نیومده*/
+div.container div{
+ background-color:#f4f8fa;
+ color:#000; 
+ font-size:25px;
+ margin:5px;
+ padding:20px;
+}
+
+div.container{
+   
+    width:1000px;
+    align-items: center;
+ background-color:#cccc00;
+ color:#fff;
+ display: -webkit-flex;
+ -webkit-justify-content: center;
+ display:flex;
+ justify-content:space-between;
+}
+
+.section3{
+    display: inline;
+}
+/*خصوصیت ردیو باتن های سوالاته که در حالت عادی نشون میده و براشون سایز تعریف کردم*/
+input[type=radio]{
+    width: 40px;
+    height: 40px;
+}
+/*این حصوصیت همون ردیو باتن هاست وقتی که روشون کلیک بشه و به اصطلاح چک بشن و سایزشون بیشتر شه*/
+input[type=radio]:checked{
+    width: 46px;
+    height: 46px;
+}
+/*کلاس برای سوالات هستش*/
+.question{
+    color: #cc0066;
+    padding-left: 15px;
+ text-align: center;
+    font-size: 35px;
+}
+/*دکمه های موافق و مخالف رنگاشون تعیین شدن اینجا*/
+.agree{
+    color: #339933;
+}
+ .disagree{
+    color:#990000;
+}
+
+/*و اینم کلاس برای دکمه اخر صفحه که نوشته صفحه بعدی*/
+input[type=button]{
+    width: 100px;
+    height: 50px;
+}
+.footer1{
+    text-align: center;
+}
+
+
+
+
+
+
