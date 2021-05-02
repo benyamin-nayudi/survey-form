@@ -5,4 +5,4 @@ hi im benyamin and im learning new skills
 
 
 
-i have no idea
+i dont have any ideas
